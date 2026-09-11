@@ -9,3 +9,4 @@ cache
 .idea
 .git
 /.devenv
+/.ipynb_checkpoints

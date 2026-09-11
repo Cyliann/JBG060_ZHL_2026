@@ -1,3 +1,4 @@
+{ pkgs, ... }:
 {
   languages.python = {
     enable = true;
@@ -7,4 +8,9 @@
       sync.enable = true;
     };
   };
+
+  packages = with pkgs; [
+    qgis
+    zlib # needed for numpy libz.so.1
+  ];
 }
