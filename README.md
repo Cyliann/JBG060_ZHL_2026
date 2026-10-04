@@ -187,6 +187,34 @@ impact-data example, requests a road network from OpenStreetMap, and opens inter
 - The OpenStreetMap step needs an internet connection. Prefer the individual functions when working headlessly 
 or with limited time or memory.
 
+### Road passability regression input
+
+`processing_data/build_regression_input.py` creates a road-date modeling table
+from the road labels, place coordinates, flood-event pixels, and ERA5 rainfall
+and runoff. It accepts paths explicitly, so the external data can stay outside
+this Git repository. From the repository root in a Python environment with the
+project's data-processing dependencies installed:
+
+```bash
+python processing_data/build_regression_input.py \
+  --roads-csv 'road_data/roads_all(2).csv' \
+  --coords-csv road_data/with_coords.csv \
+  --data-root ../data-JBG060-2026 \
+  --output-dir regression_input
+```
+
+`regression_input/regression_input.parquet` and
+`regression_input/regression_input.csv` contain rows with a
+10-14 day future road-status label and complete spatial features. The output
+folder also contains labeled and unlabeled audit tables, route geometry,
+`qa.json`, and a data dictionary. All weather/flood features end the day before
+the map date. A zero flood count means no detected pixel in the compact flood
+product; it does not establish cloud-free, dry conditions. Roads 112 and 117
+remain in the audit table but are excluded from the model-ready table pending
+coordinate checks. The binary target means red on the Logistics Cluster map;
+partial passability is grouped with passability and can be tested separately.
+The script builds inputs only; it does not fit a model.
+
 ## Function and data reference
 
 ### Hydrometeorological data: `processing_data/loading.py`
