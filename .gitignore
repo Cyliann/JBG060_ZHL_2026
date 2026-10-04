@@ -10,3 +10,4 @@ cache
 .git
 /.devenv
 /.ipynb_checkpoints
+/maps

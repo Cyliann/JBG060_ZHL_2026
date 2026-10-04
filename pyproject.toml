@@ -41,6 +41,7 @@ dependencies = [
     "osmnx==2.1.0",
     "packaging==26.2",
     "pandas==3.0.3",
+    "pandas-stubs>=3.0.5.260914",
     "partd==1.4.2",
     "pillow==12.2.0",
     "plotly==6.9.0",
