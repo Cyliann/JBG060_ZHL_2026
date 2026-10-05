@@ -6,6 +6,31 @@ The direct three-class logistic regression, its 18 input features, training
 procedure, and saved results are documented in [regression/README.md](regression/README.md).
 It predicts a probability for each future road-passability label.
 
+## Road-passability preprocessing
+
+The tracked [input-building script](processing_data/build_regression_input.py)
+joins road-condition maps with place coordinates, nearby detected flood
+pixels, and historical ERA5 rainfall/runoff. It approximates routes with
+straight segments, uses a 2 km road buffer by default, and creates 7- and
+14-day inputs ending before each map date. Its output files and assumptions
+are described in [regression_input/README.md](regression_input/README.md).
+
+From the repository root, with the external `data-JBG060-2026` download next
+to the repository, run the script into a separate review directory:
+
+```powershell
+python processing_data/build_regression_input.py `
+  --roads-csv 'road_data/roads_all(2).csv' `
+  --coords-csv 'road_data/with_coords.csv' `
+  --data-root '../data-JBG060-2026' `
+  --output-dir '../regression_input_rebuilt'
+```
+
+The script requires NumPy, pandas, PyArrow, Shapely, Xarray, PyProj, and an
+Xarray NetCDF backend. Rebuilding with the corrected Nadapal coordinates
+will change the model-ready road coverage; review the new `qa.json` and
+refit the regression before using those new inputs.
+
 ## Introduction and overview
 
 This repository supports the 2026 JBG060 course project on flood dynamics in South Sudan. 
@@ -20,8 +45,9 @@ The repository currently provides utilities for:
 - spatial subsetting by coordinate or bounding box; and
 - converting selected raw inputs into pandas, GeoPandas, Xarray, or NetworkX objects.
 
-This is not yet an end-to-end flood model or a complete reproducible analysis pipeline. The two Python files contain 
-loader functions and executable demonstrations.
+This is not yet an end-to-end flood model. The loader modules contain
+functions and executable demonstrations; the road preprocessing and regression
+scripts are documented in their sections above.
 
 ## Repository structure
 
@@ -29,7 +55,8 @@ loader functions and executable demonstrations.
 JBG060-2026/
 |-- processing_data/
 |   |-- loading.py                 # Hydrometeorological data loaders
-|   `-- loading_impact_data.py     # Exposure and impact data loaders
+|   |-- loading_impact_data.py     # Exposure and impact data loaders
+|   `-- build_regression_input.py  # Road-date spatial and temporal features
 |-- road_data/                     # Road-condition map labels and coordinates
 |-- regression_input/              # Dated, road-level modeling table
 |-- regression/                    # Three-class logistic regression and results

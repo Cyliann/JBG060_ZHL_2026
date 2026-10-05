@@ -1,8 +1,11 @@
 """Build dated, road-level inputs for the South Sudan passability model.
 
-The script reads source data without modifying it. All weather and flood
-features end on the day before the road-map issue date. Flood counts mean
-detected flood pixels; zero does not certify a cloud-free, dry observation.
+Place coordinates and the latest map's place sequence form straight road
+segments. Flood-pixel coordinates are matched to route buffers (2 km by
+default); ERA5 cells are sampled along each route. Daily observations become
+7- and 14-day features ending before the issue map, then road labels 10-14 days
+later provide training targets. Source files are read without modification.
+Flood counts mean detected pixels; zero does not certify a dry observation.
 """
 
 from __future__ import annotations
@@ -60,6 +63,7 @@ def build_routes(roads: pd.DataFrame, coords_path: Path) -> dict[int, dict]:
     if coords["name"].duplicated().any():
         raise ValueError("Duplicate place names in coordinate table")
     points = {row["name"]: (float(row["lon"]), float(row["lat"])) for _, row in coords.iterrows()}
+    # Use one reference geometry per road for every historical map date.
     latest = roads.loc[roads["date"] == roads["date"].max()].sort_values("road_id")
     if latest["road_id"].duplicated().any():
         raise ValueError("Latest map has duplicate road IDs")
@@ -146,6 +150,7 @@ def flood_daily(
 
     if hits:
         events = pd.concat(hits, ignore_index=True)
+        # Keep one detection per road/date/pixel; a pixel can belong to nearby roads.
         events = events.sort_values("flood_type", ascending=False).drop_duplicates(
             ["road_id", "date", "lat", "lon"], keep="first"
         )
@@ -256,6 +261,7 @@ def build_panel(roads: pd.DataFrame, routes: dict[int, dict], flood: pd.DataFram
         "rain_mm": "rain_mm",
         "runoff_mm": "runoff_mm",
     }
+    # Shift by one day so an issue map never uses flood/weather from that day.
     for source, output in windows.items():
         for days in (7, 14):
             daily[f"{output}_{days}d"] = daily.groupby("road_id")[source].transform(
