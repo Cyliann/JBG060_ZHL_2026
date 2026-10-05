@@ -14,12 +14,6 @@ def main():
             location = search(query, geolocator)
             if location is None:
                 continue
-            # except KeyError:
-            #     try:
-            #         query = {"amenity": city, "country": "South Sudan"}
-            #         lat, lon = search(query, geolocator)
-            #     except:
-            #         lat, lon = (0, 0)
             csv.loc[i, "lat"] = location.latitude
             csv.loc[i, "lon"] = location.longitude
         finally:
