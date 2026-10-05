@@ -100,9 +100,8 @@ python processing_data/build_regression_input.py `
 Review the rebuilt `qa.json` and refit the model before replacing the
 committed input files. The command above leaves those files unchanged.
 
-The saved regression model and results predate this input rebuild and must be
-refitted before they are interpreted as results for the current data. The
-model uses 2024 for development and 2025 as an exploratory diagnostic set;
+The saved regression model and results were refitted after this input rebuild.
+The model uses 2024 for development and 2025 as an exploratory diagnostic set;
 2025 has already been examined and is not a fresh final holdout. Read
 `qa.json` before modeling: 13,239 source rows are repeated road observations,
 not 13,239 independent road closures.

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+from hashlib import sha256
 from pathlib import Path
 
 import joblib
@@ -221,6 +222,12 @@ def main() -> None:
     model = fit(development)
     probability = predict_probabilities(model, test)
     test_metrics = evaluate(test, probability)
+    test_metrics.update({
+        "training_rows": len(development),
+        "training_changes": int(development["actual_change"].sum()),
+        "input_csv_sha256": sha256(args.input.read_bytes()).hexdigest(),
+        "road_status_csv_sha256": sha256(args.roads_csv.read_bytes()).hexdigest(),
+    })
     predictions = test[
         ["road_id", "issue_date", "target_date", "current_status", "target_status", "actual_change"]
     ].copy()

@@ -1,20 +1,20 @@
 {
-  "rows": 4674,
+  "rows": 4708,
   "issue_dates": 34,
-  "actual_class_0": 1525,
+  "actual_class_0": 1559,
   "actual_class_1": 1163,
   "actual_class_2": 1986,
   "actual_changes": 303,
-  "accuracy": 0.9351732991014121,
-  "macro_f1": 0.9293648078324249,
-  "multiclass_log_loss": 0.27810728078154856,
-  "multiclass_brier": 0.12036410280452221,
+  "accuracy": 0.9356414613423959,
+  "macro_f1": 0.9298174069126116,
+  "multiclass_log_loss": 0.27638268115593934,
+  "multiclass_brier": 0.11950160348889012,
   "predicted_changes_by_argmax": 0,
   "correct_changed_status": 0,
-  "mean_highest_probability": 0.9538012284528052,
+  "mean_highest_probability": 0.9541477413848762,
   "confusion_matrix": [
     [
-      1434,
+      1468,
       53,
       38
     ],
@@ -28,5 +28,9 @@
       76,
       1898
     ]
-  ]
+  ],
+  "training_rows": 5001,
+  "training_changes": 201,
+  "input_csv_sha256": "883ca47a0608cba043252902d525cbe9675c8073e7d950f7eb4519353d7a4fd0",
+  "road_status_csv_sha256": "8f2b0375112279a2f2bd36ab46243fb45923f4b3b4156f7496e269a7ba693393"
 }

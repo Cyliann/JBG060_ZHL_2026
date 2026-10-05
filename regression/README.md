@@ -140,7 +140,7 @@ training, but it is **not** in (X_i).
 
 ## 3. How training works
 
-The 2024 development period contains **4,964** road-date rows. There are
+The 2024 development period contains **5,001** road-date rows. There are
 **201** pairs whose future status differs from their current status, but the
 model uses the actual future class `0`, `1`, or `2` as (y_i). It does not
 collapse the target to changed/unchanged.
@@ -186,12 +186,12 @@ validation issue date**, so a future road label cannot enter a prediction:
 
 | Fold | Training rows / changed pairs | Validation issue dates | Validation rows / changed pairs |
 | ---: | ---: | --- | ---: |
-| 1 | 2,112 / 88 | 2024-05-31 to 2024-06-21 | 535 / 36 |
-| 2 | 2,511 / 124 | 2024-07-04 to 2024-07-25 | 544 / 42 |
-| 3 | 2,919 / 140 | 2024-08-01 to 2024-12-12 | 1,773 / 35 |
+| 1 | 2,128 / 88 | 2024-05-31 to 2024-06-21 | 539 / 36 |
+| 2 | 2,530 / 124 | 2024-07-04 to 2024-07-25 | 548 / 42 |
+| 3 | 2,941 / 140 | 2024-08-01 to 2024-12-12 | 1,786 / 35 |
 
-The final pipeline is fitted again on all 4,964 2024 development rows and
-evaluated on **4,674** within-2025 rows. Cross-year pairs are excluded from
+The final pipeline is fitted again on all 5,001 2024 development rows and
+evaluated on **4,708** within-2025 rows. Cross-year pairs are excluded from
 this fixed comparison. The 2025 set was viewed during earlier experiments,
 so these numbers are exploratory rather than a fresh final holdout. Multiple
 rows for one road are correlated; they are not independent physical events.
@@ -216,19 +216,21 @@ using different paths. If these packages are missing, install them with
 | `results/status_logistic_model.joblib` | Fitted standardization + multinomial logistic pipeline. |
 | `results/coefficients.csv` | One fitted coefficient per feature and target class, on the standardized scale. |
 | `results/cv_metrics.csv` | Scores for the three 2024 validation blocks. |
-| `results/test_metrics.json` | 2025 multiclass scores and confusion matrix. |
+| `results/test_metrics.json` | 2025 multiclass scores, confusion matrix, training counts, and SHA-256 hashes of the two source CSVs. |
 | `results/test_predictions.csv` | One 2025 row per road/date, with all three class probabilities, predicted class, and confidence. |
 
-On the 2025 diagnostic set, the direct model's accuracy is **93.5%**, but it
+On the 2025 diagnostic set, the direct model's accuracy is **93.56%**, but it
 correctly identifies **0 of the 303 changed road-date pairs** by its highest
 probability class. Thus its current three-class confidence output exists and
 is reproducible, while its performance on the operationally important
-changes remains weak. Overall accuracy largely reflects unchanged roads.
+changes remains weak. All 34 added 2025 observations for road 117 are
+unchanged; the small accuracy increase from the earlier run mostly reflects
+those additional easy rows. Overall accuracy largely reflects unchanged roads.
 
 ### Input-data version note
 
 The `regression_input/` table was rebuilt after the Nadapal and Payuel
 coordinate corrections on 2026-10-05. It now includes road 117 and revised
 features for roads 111, 131, and 137. The saved model and `results/` files
-above were fitted **before** this rebuild; rerun this script before using
-those artifacts as results for the current input table.
+above were refitted on that rebuilt table. `test_metrics.json` records the
+input CSV hashes so a later data rebuild can be distinguished from this run.
