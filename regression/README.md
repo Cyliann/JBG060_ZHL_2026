@@ -227,10 +227,8 @@ changes remains weak. Overall accuracy largely reflects unchanged roads.
 
 ### Input-data version note
 
-The committed `regression_input/` table predates the Nadapal coordinate fix
-pulled on 2026-10-05. Its `qa.json` still excludes road 117 because its old
-route geometry had a zero-length segment. The corrected coordinates now
-produce a valid route for road 117, but its spatial inputs have not been
-regenerated. This regression and the saved results reproduce the **committed
-input table**; they do not yet include that road. Rebuilding spatial features
-and refitting the model is needed before including it.
+The `regression_input/` table was rebuilt after the Nadapal and Payuel
+coordinate corrections on 2026-10-05. It now includes road 117 and revised
+features for roads 111, 131, and 137. The saved model and `results/` files
+above were fitted **before** this rebuild; rerun this script before using
+those artifacts as results for the current input table.

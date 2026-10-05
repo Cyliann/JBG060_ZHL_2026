@@ -27,9 +27,9 @@ python processing_data/build_regression_input.py `
 ```
 
 The script requires NumPy, pandas, PyArrow, Shapely, Xarray, PyProj, and an
-Xarray NetCDF backend. Rebuilding with the corrected Nadapal coordinates
-will change the model-ready road coverage; review the new `qa.json` and
-refit the regression before using those new inputs.
+Xarray NetCDF backend. The current model-ready input uses the corrected
+Nadapal and Payuel coordinates. Its `qa.json` records the road coverage;
+the saved regression model and results still need to be refitted on it.
 
 ## Introduction and overview
 

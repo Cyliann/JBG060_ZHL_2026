@@ -1,13 +1,12 @@
 {
   "road_count": 140,
   "geometry_status_counts": {
-    "ok": 138,
-    "unverified_akun_akon_alias": 1,
-    "zero_length_segment": 1
+    "ok": 139,
+    "unverified_akun_akon_alias": 1
   },
   "map_rows": 13239,
   "labeled_rows": 9919,
-  "model_ready_rows": 9775,
+  "model_ready_rows": 9847,
   "issue_dates_with_target": 72,
   "horizon_days": {
     "12.0": 139,
@@ -20,17 +19,16 @@
     "cross_year_or_other": 139
   },
   "new_blocked": 169,
-  "spatial_features_missing_rows": 144,
-  "weather_features_missing_rows": 144,
+  "spatial_features_missing_rows": 72,
+  "weather_features_missing_rows": 72,
   "buffer_km": 2.0,
   "sample_spacing_km": 10.0,
   "feature_cutoff": "day before issue_date",
   "geometry_reference": "2025-12-24",
   "excluded_spatial_roads": [
-    112,
-    117
+    112
   ],
   "zero_flood_detection_means": "no compact-product flood pixel matched; not verified dry",
   "raw_flood_rows_scanned": 42013858,
-  "matched_road_pixel_days": 3015376
+  "matched_road_pixel_days": 3000769
 }
