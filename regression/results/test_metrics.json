@@ -1,0 +1,32 @@
+{
+  "rows": 4674,
+  "issue_dates": 34,
+  "actual_class_0": 1525,
+  "actual_class_1": 1163,
+  "actual_class_2": 1986,
+  "actual_changes": 303,
+  "accuracy": 0.9351732991014121,
+  "macro_f1": 0.9293648078324249,
+  "multiclass_log_loss": 0.27810728078154856,
+  "multiclass_brier": 0.12036410280452221,
+  "predicted_changes_by_argmax": 0,
+  "correct_changed_status": 0,
+  "mean_highest_probability": 0.9538012284528052,
+  "confusion_matrix": [
+    [
+      1434,
+      53,
+      38
+    ],
+    [
+      88,
+      1039,
+      36
+    ],
+    [
+      12,
+      76,
+      1898
+    ]
+  ]
+}

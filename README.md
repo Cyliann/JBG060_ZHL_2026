@@ -1,10 +1,16 @@
 # JBG060-2026: Flood Dynamics in South Sudan
 
+## Road-passability regression
+
+The direct three-class logistic regression, its 18 input features, training
+procedure, and saved results are documented in [regression/README.md](regression/README.md).
+It predicts a probability for each future road-passability label.
+
 ## Introduction and overview
 
 This repository supports the 2026 JBG060 course project on flood dynamics in South Sudan. 
-Its current scope is data loading and preprocessing: it brings hydrometeorological hazard data together with 
-exposure and impact data so that they can be used in later flood-risk analyses.
+It includes data loading and preprocessing that bring hydrometeorological hazard data together with
+exposure and impact data, plus an exploratory road-passability regression.
 
 The repository currently provides utilities for:
 
@@ -24,6 +30,9 @@ JBG060-2026/
 |-- processing_data/
 |   |-- loading.py                 # Hydrometeorological data loaders
 |   `-- loading_impact_data.py     # Exposure and impact data loaders
+|-- road_data/                     # Road-condition map labels and coordinates
+|-- regression_input/              # Dated, road-level modeling table
+|-- regression/                    # Three-class logistic regression and results
 |-- literature/                    # Supporting papers and data documentation
 |-- raw_data/                      # External download; ignored by Git
 |-- requirements.txt               # Pinned Python dependencies
