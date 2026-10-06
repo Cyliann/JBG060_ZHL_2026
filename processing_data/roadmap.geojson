@@ -1,0 +1,6848 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.821029,
+          9.3956658
+        ]
+      },
+      "properties": {
+        "node_id": "1",
+        "name": "Abiemnhom",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.42539183328755,
+          6.93770204988967
+        ]
+      },
+      "properties": {
+        "node_id": "2",
+        "name": "Abiriu",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4405788,
+          9.5974896
+        ]
+      },
+      "properties": {
+        "node_id": "3",
+        "name": "Abyei",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9623737,
+          10.064973
+        ]
+      },
+      "properties": {
+        "node_id": "4",
+        "name": "Adar",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3,
+          8.155
+        ]
+      },
+      "properties": {
+        "node_id": "5",
+        "name": "Adok",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8976072,
+          6.6268581
+        ]
+      },
+      "properties": {
+        "node_id": "6",
+        "name": "Aduel",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7102808,
+          9.2899378
+        ]
+      },
+      "properties": {
+        "node_id": "7",
+        "name": "Ajak Kuac",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.285761,
+          9.97444
+        ]
+      },
+      "properties": {
+        "node_id": "8",
+        "name": "Ajuong Thok",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0029396,
+          7.7929337
+        ]
+      },
+      "properties": {
+        "node_id": "9",
+        "name": "Akobo",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.0377043,
+          6.5452923
+        ]
+      },
+      "properties": {
+        "node_id": "10",
+        "name": "Akot",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.5065031,
+          8.9532983
+        ]
+      },
+      "properties": {
+        "node_id": "11",
+        "name": "Akuem",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9639708,
+          8.8908527
+        ]
+      },
+      "properties": {
+        "node_id": "12",
+        "name": "Akun",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4252,
+          9.0841
+        ]
+      },
+      "properties": {
+        "node_id": "13",
+        "name": "Akwot",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.100124821135964,
+          6.472670041008651
+        ]
+      },
+      "properties": {
+        "node_id": "14",
+        "name": "Aluakluak",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3366391,
+          5.5159611
+        ]
+      },
+      "properties": {
+        "node_id": "15",
+        "name": "Amadi",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.07855,
+          7.05454
+        ]
+      },
+      "properties": {
+        "node_id": "16",
+        "name": "Amok Piny",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.3962085,
+          8.7693352
+        ]
+      },
+      "properties": {
+        "node_id": "17",
+        "name": "Aweil",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.1724405,
+          6.1271511
+        ]
+      },
+      "properties": {
+        "node_id": "18",
+        "name": "Awerial",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4097976,
+          8.1236035
+        ]
+      },
+      "properties": {
+        "node_id": "19",
+        "name": "Ayod",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5340167,
+          6.4663339
+        ]
+      },
+      "properties": {
+        "node_id": "20",
+        "name": "Baidit",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0661924,
+          9.2971519
+        ]
+      },
+      "properties": {
+        "node_id": "21",
+        "name": "Baliet",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7976737,
+          9.2481076
+        ]
+      },
+      "properties": {
+        "node_id": "22",
+        "name": "Bentiu",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3922514,
+          6.1824839
+        ]
+      },
+      "properties": {
+        "node_id": "23",
+        "name": "Boma",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5614397,
+          6.2108741
+        ]
+      },
+      "properties": {
+        "node_id": "24",
+        "name": "Bor",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.3229668,
+          4.5169966
+        ]
+      },
+      "properties": {
+        "node_id": "25",
+        "name": "Camp 15",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3744,
+          8.21562
+        ]
+      },
+      "properties": {
+        "node_id": "26",
+        "name": "Chandoy/Dolo2",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.4945369,
+          4.2331068
+        ]
+      },
+      "properties": {
+        "node_id": "27",
+        "name": "Chukudum",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2470254,
+          7.0146876
+        ]
+      },
+      "properties": {
+        "node_id": "28",
+        "name": "Cueibet",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.1951973,
+          7.71624
+        ]
+      },
+      "properties": {
+        "node_id": "29",
+        "name": "Deim Zubeir",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.63615402213415,
+          9.281023814227375
+        ]
+      },
+      "properties": {
+        "node_id": "30",
+        "name": "Dhorbor",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.48814,
+          9.356977
+        ]
+      },
+      "properties": {
+        "node_id": "31",
+        "name": "Dhorbor Junction",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.025693,
+          4.9728686
+        ]
+      },
+      "properties": {
+        "node_id": "32",
+        "name": "Diabio",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.85804763267076,
+          8.893915191335227
+        ]
+      },
+      "properties": {
+        "node_id": "33",
+        "name": "Ding Ding",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.3959666,
+          7.7497653
+        ]
+      },
+      "properties": {
+        "node_id": "34",
+        "name": "Duk Padiet",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.466719,
+          5.0857047
+        ]
+      },
+      "properties": {
+        "node_id": "35",
+        "name": "Ezo",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.983635,
+          9.222645
+        ]
+      },
+      "properties": {
+        "node_id": "36",
+        "name": "Fangak Junction",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.71428,
+          5.02512
+        ]
+      },
+      "properties": {
+        "node_id": "37",
+        "name": "Faraksika",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.655171606286352,
+          7.822797337019272
+        ]
+      },
+      "properties": {
+        "node_id": "38",
+        "name": "Fatuet",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7050412,
+          7.1428253
+        ]
+      },
+      "properties": {
+        "node_id": "39",
+        "name": "Gadiang",
+        "degree": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.472528,
+          7.405133
+        ]
+      },
+      "properties": {
+        "node_id": "40",
+        "name": "Ganyiel",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.28166,
+          7.45025
+        ]
+      },
+      "properties": {
+        "node_id": "41",
+        "name": "Panyijiar",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.797714,
+          5.6807128
+        ]
+      },
+      "properties": {
+        "node_id": "42",
+        "name": "Gemeiza",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0984675,
+          8.5344438
+        ]
+      },
+      "properties": {
+        "node_id": "43",
+        "name": "Gogrial",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.981885951833736,
+          8.647804284789705
+        ]
+      },
+      "properties": {
+        "node_id": "44",
+        "name": "Gossinga",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9139909,
+          9.1625559
+        ]
+      },
+      "properties": {
+        "node_id": "45",
+        "name": "Guit",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6205247,
+          4.8021113
+        ]
+      },
+      "properties": {
+        "node_id": "46",
+        "name": "Gumbo",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9095416,
+          6.635056
+        ]
+      },
+      "properties": {
+        "node_id": "47",
+        "name": "Gumuruk",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8714002,
+          4.4616286
+        ]
+      },
+      "properties": {
+        "node_id": "48",
+        "name": "Hiyala",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1078963,
+          4.0784728
+        ]
+      },
+      "properties": {
+        "node_id": "49",
+        "name": "Ikotos",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.7581757,
+          4.7620743
+        ]
+      },
+      "properties": {
+        "node_id": "50",
+        "name": "Imehejek",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.849999391552867,
+          8.400020561936282
+        ]
+      },
+      "properties": {
+        "node_id": "51",
+        "name": "Indirigwa",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.22419,
+          10.147423
+        ]
+      },
+      "properties": {
+        "node_id": "52",
+        "name": "Jemaam",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5959173,
+          4.8459246
+        ]
+      },
+      "properties": {
+        "node_id": "53",
+        "name": "Juba",
+        "degree": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.150760722281603,
+          9.30233607075806
+        ]
+      },
+      "properties": {
+        "node_id": "54",
+        "name": "Kaikang",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.3927247,
+          8.0945809
+        ]
+      },
+      "properties": {
+        "node_id": "55",
+        "name": "Kaikuny",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6649919,
+          3.8732643
+        ]
+      },
+      "properties": {
+        "node_id": "56",
+        "name": "Kajo Keji",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.527539722576293,
+          9.27468384581716
+        ]
+      },
+      "properties": {
+        "node_id": "57",
+        "name": "Kaljak",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.660785,
+          8.149121
+        ]
+      },
+      "properties": {
+        "node_id": "58",
+        "name": "Kangi",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.00505386034703,
+          8.446188214681003
+        ]
+      },
+      "properties": {
+        "node_id": "59",
+        "name": "Kapalala",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.58997,
+          4.7691017
+        ]
+      },
+      "properties": {
+        "node_id": "60",
+        "name": "Kapoeta",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.823863,
+          8.209632
+        ]
+      },
+      "properties": {
+        "node_id": "61",
+        "name": "Karam",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.009143766497527,
+          8.086816677735108
+        ]
+      },
+      "properties": {
+        "node_id": "62",
+        "name": "Karic",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9730397,
+          5.7670781
+        ]
+      },
+      "properties": {
+        "node_id": "63",
+        "name": "Kassangor",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.638833,
+          9.2605
+        ]
+      },
+      "properties": {
+        "node_id": "64",
+        "name": "Keew",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.9282309,
+          8.9528142
+        ]
+      },
+      "properties": {
+        "node_id": "65",
+        "name": "Kiech Kon",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.674058,
+          9.477118
+        ]
+      },
+      "properties": {
+        "node_id": "66",
+        "name": "Kilo 30",
+        "degree": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.995299,
+          8.593184
+        ]
+      },
+      "properties": {
+        "node_id": "67",
+        "name": "Koch",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.108345,
+          9.8875
+        ]
+      },
+      "properties": {
+        "node_id": "68",
+        "name": "Kodok",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.35167,
+          7.14117
+        ]
+      },
+      "properties": {
+        "node_id": "69",
+        "name": "Kongor",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9789446,
+          8.3024209
+        ]
+      },
+      "properties": {
+        "node_id": "70",
+        "name": "Kuajok",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8886612,
+          9.3195216
+        ]
+      },
+      "properties": {
+        "node_id": "71",
+        "name": "Kuernyang",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5650725,
+          5.7056582
+        ]
+      },
+      "properties": {
+        "node_id": "72",
+        "name": "Kuron",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.9696989,
+          6.6611024
+        ]
+      },
+      "properties": {
+        "node_id": "73",
+        "name": "Labarab",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.4731135,
+          5.0289515
+        ]
+      },
+      "properties": {
+        "node_id": "74",
+        "name": "Lafon",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.0755257,
+          4.3396843
+        ]
+      },
+      "properties": {
+        "node_id": "75",
+        "name": "Lainya",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.300148,
+          4.498553
+        ]
+      },
+      "properties": {
+        "node_id": "76",
+        "name": "Langario",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.09257692380704,
+          7.063972150461279
+        ]
+      },
+      "properties": {
+        "node_id": "77",
+        "name": "Langdit",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0618875,
+          8.5248787
+        ]
+      },
+      "properties": {
+        "node_id": "78",
+        "name": "Lankien",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.1411544,
+          8.3040834
+        ]
+      },
+      "properties": {
+        "node_id": "79",
+        "name": "Leer",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0075607,
+          7.0506672
+        ]
+      },
+      "properties": {
+        "node_id": "80",
+        "name": "Likuangole",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0774384,
+          4.6440169
+        ]
+      },
+      "properties": {
+        "node_id": "81",
+        "name": "Liria",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.448585,
+          5.3391035
+        ]
+      },
+      "properties": {
+        "node_id": "82",
+        "name": "Lui",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.7259061,
+          9.9633955
+        ]
+      },
+      "properties": {
+        "node_id": "83",
+        "name": "Maban",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4038165,
+          7.1653652
+        ]
+      },
+      "properties": {
+        "node_id": "84",
+        "name": "Mabior",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8426,
+          7.90323
+        ]
+      },
+      "properties": {
+        "node_id": "85",
+        "name": "Madol",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.299641,
+          4.127944
+        ]
+      },
+      "properties": {
+        "node_id": "86",
+        "name": "Magwi",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.923913,
+          8.6107065
+        ]
+      },
+      "properties": {
+        "node_id": "87",
+        "name": "Maiwut",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6584168,
+          9.5388487
+        ]
+      },
+      "properties": {
+        "node_id": "88",
+        "name": "Malakal",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.982872,
+          9.447218
+        ]
+      },
+      "properties": {
+        "node_id": "89",
+        "name": "Manga Port",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.7699131,
+          5.1998722
+        ]
+      },
+      "properties": {
+        "node_id": "90",
+        "name": "Mangalla",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0942416,
+          9.0524074
+        ]
+      },
+      "properties": {
+        "node_id": "91",
+        "name": "Mankien",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.575944,
+          6.466528
+        ]
+      },
+      "properties": {
+        "node_id": "92",
+        "name": "Manyabol",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.7205294,
+          7.7007016
+        ]
+      },
+      "properties": {
+        "node_id": "93",
+        "name": "Maper (Lakes)",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.074859,
+          6.339249
+        ]
+      },
+      "properties": {
+        "node_id": "94",
+        "name": "Mapuordit",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.850348,
+          9.102835
+        ]
+      },
+      "properties": {
+        "node_id": "95",
+        "name": "Marial-Baai",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.4645282,
+          4.9143633
+        ]
+      },
+      "properties": {
+        "node_id": "96",
+        "name": "Maridi",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.99062003653451,
+          6.199669232652293
+        ]
+      },
+      "properties": {
+        "node_id": "97",
+        "name": "Maruwa",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.49834,
+          9.02694
+        ]
+      },
+      "properties": {
+        "node_id": "98",
+        "name": "Mathiang",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.3598113,
+          9.1617716
+        ]
+      },
+      "properties": {
+        "node_id": "99",
+        "name": "Mayen Abun",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.00339,
+          8.13576
+        ]
+      },
+      "properties": {
+        "node_id": "100",
+        "name": "Mayendit",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.1650718,
+          9.2254694
+        ]
+      },
+      "properties": {
+        "node_id": "101",
+        "name": "Mayom",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2024739,
+          10.4419745
+        ]
+      },
+      "properties": {
+        "node_id": "102",
+        "name": "Melut",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.5148179,
+          6.0548059
+        ]
+      },
+      "properties": {
+        "node_id": "103",
+        "name": "Mingkaman",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.101628,
+          8.4698416
+        ]
+      },
+      "properties": {
+        "node_id": "104",
+        "name": "Mirmir",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.329687,
+          8.4180563
+        ]
+      },
+      "properties": {
+        "node_id": "105",
+        "name": "Mogok",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0489069,
+          8.1647526
+        ]
+      },
+      "properties": {
+        "node_id": "106",
+        "name": "Motot",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3227139,
+          5.3483937
+        ]
+      },
+      "properties": {
+        "node_id": "107",
+        "name": "Mundri",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.952475345973685,
+          6.060153981372665
+        ]
+      },
+      "properties": {
+        "node_id": "108",
+        "name": "Mvolo",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.902795137882435,
+          4.97457712182844
+        ]
+      },
+      "properties": {
+        "node_id": "109",
+        "name": "Naandi",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.284355,
+          4.40498
+        ]
+      },
+      "properties": {
+        "node_id": "110",
+        "name": "Nadapal",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1660393,
+          4.504813
+        ]
+      },
+      "properties": {
+        "node_id": "111",
+        "name": "Narus",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.0737,
+          8.61709
+        ]
+      },
+      "properties": {
+        "node_id": "112",
+        "name": "Nasser",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.162239,
+          9.4073225
+        ]
+      },
+      "properties": {
+        "node_id": "113",
+        "name": "New Fangak",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6761979,
+          9.0230181
+        ]
+      },
+      "properties": {
+        "node_id": "114",
+        "name": "Nhialdiu",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0601419,
+          3.5969348
+        ]
+      },
+      "properties": {
+        "node_id": "115",
+        "name": "Nimule",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.2419019,
+          7.7270653
+        ]
+      },
+      "properties": {
+        "node_id": "116",
+        "name": "Nyal",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.9459666,
+          8.4334738
+        ]
+      },
+      "properties": {
+        "node_id": "117",
+        "name": "Nyambor",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.9899093,
+          9.1275553
+        ]
+      },
+      "properties": {
+        "node_id": "118",
+        "name": "Nyamlell",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.20443084276657,
+          9.29449990948606
+        ]
+      },
+      "properties": {
+        "node_id": "119",
+        "name": "Nyandit",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6024988,
+          6.7102629
+        ]
+      },
+      "properties": {
+        "node_id": "120",
+        "name": "Nyang",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.861945436849123,
+          9.69643988972825
+        ]
+      },
+      "properties": {
+        "node_id": "121",
+        "name": "Nyingaro",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2473599,
+          4.6412769
+        ]
+      },
+      "properties": {
+        "node_id": "122",
+        "name": "Nzara",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8800267,
+          9.0668934
+        ]
+      },
+      "properties": {
+        "node_id": "123",
+        "name": "Old Fangak",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8304793,
+          8.4529665
+        ]
+      },
+      "properties": {
+        "node_id": "124",
+        "name": "Pading",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0246349,
+          8.474665
+        ]
+      },
+      "properties": {
+        "node_id": "125",
+        "name": "Pagak",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.9569508,
+          3.868055
+        ]
+      },
+      "properties": {
+        "node_id": "126",
+        "name": "Pageri",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7665154,
+          9.119437
+        ]
+      },
+      "properties": {
+        "node_id": "127",
+        "name": "Paguir",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.6919968,
+          7.7480429
+        ]
+      },
+      "properties": {
+        "node_id": "128",
+        "name": "Pajut",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5466093,
+          10.4583543
+        ]
+      },
+      "properties": {
+        "node_id": "129",
+        "name": "Paloich",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.553512,
+          9.726252
+        ]
+      },
+      "properties": {
+        "node_id": "130",
+        "name": "Panakuach",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.9816678,
+          9.9190338
+        ]
+      },
+      "properties": {
+        "node_id": "131",
+        "name": "Pariang",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8342865,
+          8.0695589
+        ]
+      },
+      "properties": {
+        "node_id": "132",
+        "name": "Pathai",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.513859,
+          7.4829
+        ]
+      },
+      "properties": {
+        "node_id": "133",
+        "name": "Payuel",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.9994,
+          6.19498
+        ]
+      },
+      "properties": {
+        "node_id": "134",
+        "name": "Pengko",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.1297059,
+          6.8011197
+        ]
+      },
+      "properties": {
+        "node_id": "135",
+        "name": "Pibor",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.0297593,
+          8.0418191
+        ]
+      },
+      "properties": {
+        "node_id": "136",
+        "name": "Pieri",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.201707628273248,
+          8.266435808048447
+        ]
+      },
+      "properties": {
+        "node_id": "137",
+        "name": "Piling",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.0968566208686,
+          7.1851834664354906
+        ]
+      },
+      "properties": {
+        "node_id": "138",
+        "name": "Pochala",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.4117265,
+          7.4566724
+        ]
+      },
+      "properties": {
+        "node_id": "139",
+        "name": "Poktap",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.103397758859725,
+          6.766780785244398
+        ]
+      },
+      "properties": {
+        "node_id": "140",
+        "name": "Poloich",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6793739,
+          8.4694625
+        ]
+      },
+      "properties": {
+        "node_id": "141",
+        "name": "Raja",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.8087719,
+          11.751936
+        ]
+      },
+      "properties": {
+        "node_id": "142",
+        "name": "Renk",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.94176729004669,
+          5.132539883173104
+        ]
+      },
+      "properties": {
+        "node_id": "143",
+        "name": "Rokon",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.57856,
+          9.69324
+        ]
+      },
+      "properties": {
+        "node_id": "144",
+        "name": "Roriak",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6767488,
+          6.8063901
+        ]
+      },
+      "properties": {
+        "node_id": "145",
+        "name": "Rumbek",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.080375,
+          8.3902359
+        ]
+      },
+      "properties": {
+        "node_id": "146",
+        "name": "Rupkuai",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.338648459046755,
+          4.627605640309765
+        ]
+      },
+      "properties": {
+        "node_id": "147",
+        "name": "Saura",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7730423,
+          7.1054884
+        ]
+      },
+      "properties": {
+        "node_id": "148",
+        "name": "Shambe",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.7744676,
+          5.900151
+        ]
+      },
+      "properties": {
+        "node_id": "149",
+        "name": "Tali",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4683476,
+          5.609579
+        ]
+      },
+      "properties": {
+        "node_id": "150",
+        "name": "Tambura",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.753986,
+          5.450554
+        ]
+      },
+      "properties": {
+        "node_id": "151",
+        "name": "Terakeka",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.999419,
+          8.013623
+        ]
+      },
+      "properties": {
+        "node_id": "152",
+        "name": "Thar Kueng",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.681872,
+          7.2751765
+        ]
+      },
+      "properties": {
+        "node_id": "153",
+        "name": "Tonj",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5682244,
+          4.4134473
+        ]
+      },
+      "properties": {
+        "node_id": "154",
+        "name": "Torit",
+        "degree": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.336666,
+          9.267008
+        ]
+      },
+      "properties": {
+        "node_id": "155",
+        "name": "Tumor",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.4303002,
+          9.093424
+        ]
+      },
+      "properties": {
+        "node_id": "156",
+        "name": "Turalei",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.724499580266226,
+          8.072847538339927
+        ]
+      },
+      "properties": {
+        "node_id": "157",
+        "name": "Udici",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.6780942,
+          9.3101181
+        ]
+      },
+      "properties": {
+        "node_id": "158",
+        "name": "Udier",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          33.2060535,
+          6.6793631
+        ]
+      },
+      "properties": {
+        "node_id": "159",
+        "name": "Vertet",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.1528986,
+          8.179364
+        ]
+      },
+      "properties": {
+        "node_id": "160",
+        "name": "Waat",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2397749,
+          8.1595168
+        ]
+      },
+      "properties": {
+        "node_id": "161",
+        "name": "Walgak",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.611928530402462,
+          9.144176232824428
+        ]
+      },
+      "properties": {
+        "node_id": "162",
+        "name": "War-Awar",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.9909335,
+          7.7001398
+        ]
+      },
+      "properties": {
+        "node_id": "163",
+        "name": "Wau",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6278427,
+          6.5114833
+        ]
+      },
+      "properties": {
+        "node_id": "164",
+        "name": "Wulu",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.30202,
+          8.991486
+        ]
+      },
+      "properties": {
+        "node_id": "165",
+        "name": "Wunrok",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.39767,
+          4.5680716
+        ]
+      },
+      "properties": {
+        "node_id": "166",
+        "name": "Yambio",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.6756882,
+          4.0941656
+        ]
+      },
+      "properties": {
+        "node_id": "167",
+        "name": "Yei",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.105424635886035,
+          5.785111806896459
+        ]
+      },
+      "properties": {
+        "node_id": "168",
+        "name": "Yeri",
+        "degree": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.08876,
+          10.10535
+        ]
+      },
+      "properties": {
+        "node_id": "169",
+        "name": "Yida",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.5021651,
+          6.5566444
+        ]
+      },
+      "properties": {
+        "node_id": "170",
+        "name": "Yirol",
+        "degree": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.707058522367618,
+          9.57243962730569
+        ]
+      },
+      "properties": {
+        "node_id": "171",
+        "name": "Yith Pabol",
+        "degree": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.8879957,
+          7.9071436
+        ]
+      },
+      "properties": {
+        "node_id": "172",
+        "name": "Yuai",
+        "degree": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.821029,
+            9.3956658
+          ],
+          [
+            28.7102808,
+            9.2899378
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 0,
+        "source": "1",
+        "target": "7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.821029,
+            9.3956658
+          ],
+          [
+            29.1650718,
+            9.2254694
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 1,
+        "source": "1",
+        "target": "101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.42539183328755,
+            6.93770204988967
+          ],
+          [
+            29.2470254,
+            7.0146876
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 2,
+        "source": "2",
+        "target": "28"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.42539183328755,
+            6.93770204988967
+          ],
+          [
+            29.6767488,
+            6.8063901
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 3,
+        "source": "2",
+        "target": "145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.4405788,
+            9.5974896
+          ],
+          [
+            28.7102808,
+            9.2899378
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 4,
+        "source": "3",
+        "target": "7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.4405788,
+            9.5974896
+          ],
+          [
+            28.3598113,
+            9.1617716
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 5,
+        "source": "3",
+        "target": "99"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9623737,
+            10.064973
+          ],
+          [
+            33.22419,
+            10.147423
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 6,
+        "source": "4",
+        "target": "52"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9623737,
+            10.064973
+          ],
+          [
+            33.20443084276657,
+            9.29449990948606
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 7,
+        "source": "4",
+        "target": "119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9623737,
+            10.064973
+          ],
+          [
+            32.5466093,
+            10.4583543
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 8,
+        "source": "4",
+        "target": "129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.3,
+            8.155
+          ],
+          [
+            30.201707628273248,
+            8.266435808048447
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 9,
+        "source": "5",
+        "target": "137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.8976072,
+            6.6268581
+          ],
+          [
+            30.0377043,
+            6.5452923
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 10,
+        "source": "6",
+        "target": "10"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.8976072,
+            6.6268581
+          ],
+          [
+            30.103397758859725,
+            6.766780785244398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 11,
+        "source": "6",
+        "target": "140"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.8976072,
+            6.6268581
+          ],
+          [
+            29.6767488,
+            6.8063901
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 12,
+        "source": "6",
+        "target": "145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.7102808,
+            9.2899378
+          ],
+          [
+            29.0942416,
+            9.0524074
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 13,
+        "source": "7",
+        "target": "91"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.7102808,
+            9.2899378
+          ],
+          [
+            28.4303002,
+            9.093424
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 14,
+        "source": "7",
+        "target": "156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.285761,
+            9.97444
+          ],
+          [
+            29.9816678,
+            9.9190338
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 15,
+        "source": "8",
+        "target": "131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.0029396,
+            7.7929337
+          ],
+          [
+            31.7050412,
+            7.1428253
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 16,
+        "source": "9",
+        "target": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.0029396,
+            7.7929337
+          ],
+          [
+            32.3927247,
+            8.0945809
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 17,
+        "source": "9",
+        "target": "55"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.0029396,
+            7.7929337
+          ],
+          [
+            33.0075607,
+            7.0506672
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 18,
+        "source": "9",
+        "target": "80"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.0377043,
+            6.5452923
+          ],
+          [
+            30.100124821135964,
+            6.472670041008651
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 19,
+        "source": "10",
+        "target": "14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.5065031,
+            8.9532983
+          ],
+          [
+            27.3962085,
+            8.7693352
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 20,
+        "source": "11",
+        "target": "17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.5065031,
+            8.9532983
+          ],
+          [
+            27.611928530402462,
+            9.144176232824428
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 21,
+        "source": "11",
+        "target": "162"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.9639708,
+            8.8908527
+          ],
+          [
+            27.3962085,
+            8.7693352
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 22,
+        "source": "12",
+        "target": "17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.9639708,
+            8.8908527
+          ],
+          [
+            28.0984675,
+            8.5344438
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 23,
+        "source": "12",
+        "target": "43"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.4252,
+            9.0841
+          ],
+          [
+            32.0661924,
+            9.2971519
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 24,
+        "source": "13",
+        "target": "21"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.4252,
+            9.0841
+          ],
+          [
+            32.9282309,
+            8.9528142
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 25,
+        "source": "13",
+        "target": "65"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.4252,
+            9.0841
+          ],
+          [
+            33.0737,
+            8.61709
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 26,
+        "source": "13",
+        "target": "112"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.100124821135964,
+            6.472670041008651
+          ],
+          [
+            30.074859,
+            6.339249
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 27,
+        "source": "14",
+        "target": "94"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.100124821135964,
+            6.472670041008651
+          ],
+          [
+            30.5021651,
+            6.5566444
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 28,
+        "source": "14",
+        "target": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.3366391,
+            5.5159611
+          ],
+          [
+            30.3227139,
+            5.3483937
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 29,
+        "source": "15",
+        "target": "107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.3366391,
+            5.5159611
+          ],
+          [
+            30.7744676,
+            5.900151
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 30,
+        "source": "15",
+        "target": "149"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.07855,
+            7.05454
+          ],
+          [
+            30.28166,
+            7.45025
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 31,
+        "source": "16",
+        "target": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.07855,
+            7.05454
+          ],
+          [
+            30.103397758859725,
+            6.766780785244398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 32,
+        "source": "16",
+        "target": "140"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.3962085,
+            8.7693352
+          ],
+          [
+            26.9899093,
+            9.1275553
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 33,
+        "source": "17",
+        "target": "118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.3962085,
+            8.7693352
+          ],
+          [
+            27.724499580266226,
+            8.072847538339927
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 34,
+        "source": "17",
+        "target": "157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1724405,
+            6.1271511
+          ],
+          [
+            31.5148179,
+            6.0548059
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 35,
+        "source": "18",
+        "target": "103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.1724405,
+            6.1271511
+          ],
+          [
+            30.5021651,
+            6.5566444
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 36,
+        "source": "18",
+        "target": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4097976,
+            8.1236035
+          ],
+          [
+            31.3959666,
+            7.7497653
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 37,
+        "source": "19",
+        "target": "34"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4097976,
+            8.1236035
+          ],
+          [
+            31.329687,
+            8.4180563
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 38,
+        "source": "19",
+        "target": "105"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4097976,
+            8.1236035
+          ],
+          [
+            31.8342865,
+            8.0695589
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 39,
+        "source": "19",
+        "target": "132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5340167,
+            6.4663339
+          ],
+          [
+            31.5614397,
+            6.2108741
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 40,
+        "source": "20",
+        "target": "24"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5340167,
+            6.4663339
+          ],
+          [
+            31.4038165,
+            7.1653652
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 41,
+        "source": "20",
+        "target": "84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0661924,
+            9.2971519
+          ],
+          [
+            31.6584168,
+            9.5388487
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 42,
+        "source": "21",
+        "target": "88"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.7976737,
+            9.2481076
+          ],
+          [
+            29.63615402213415,
+            9.281023814227375
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 43,
+        "source": "22",
+        "target": "30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.7976737,
+            9.2481076
+          ],
+          [
+            29.9139909,
+            9.1625559
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 44,
+        "source": "22",
+        "target": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.7976737,
+            9.2481076
+          ],
+          [
+            29.674058,
+            9.477118
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 45,
+        "source": "22",
+        "target": "66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.7976737,
+            9.2481076
+          ],
+          [
+            29.6761979,
+            9.0230181
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 46,
+        "source": "22",
+        "target": "114"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.3922514,
+            6.1824839
+          ],
+          [
+            33.9730397,
+            5.7670781
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 47,
+        "source": "23",
+        "target": "63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.3922514,
+            6.1824839
+          ],
+          [
+            34.5650725,
+            5.7056582
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 48,
+        "source": "23",
+        "target": "72"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.3922514,
+            6.1824839
+          ],
+          [
+            33.9696989,
+            6.6611024
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 49,
+        "source": "23",
+        "target": "73"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.3922514,
+            6.1824839
+          ],
+          [
+            33.99062003653451,
+            6.199669232652293
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 50,
+        "source": "23",
+        "target": "97"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.3922514,
+            6.1824839
+          ],
+          [
+            34.0968566208686,
+            7.1851834664354906
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 51,
+        "source": "23",
+        "target": "138"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5614397,
+            6.2108741
+          ],
+          [
+            31.7050412,
+            7.1428253
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 52,
+        "source": "24",
+        "target": "39"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5614397,
+            6.2108741
+          ],
+          [
+            31.797714,
+            5.6807128
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 53,
+        "source": "24",
+        "target": "42"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5614397,
+            6.2108741
+          ],
+          [
+            31.9994,
+            6.19498
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 54,
+        "source": "24",
+        "target": "134"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.3229668,
+            4.5169966
+          ],
+          [
+            32.8714002,
+            4.4616286
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 55,
+        "source": "25",
+        "target": "48"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.3229668,
+            4.5169966
+          ],
+          [
+            33.58997,
+            4.7691017
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 56,
+        "source": "25",
+        "target": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.3744,
+            8.21562
+          ],
+          [
+            25.6793739,
+            8.4694625
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 57,
+        "source": "26",
+        "target": "141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.4945369,
+            4.2331068
+          ],
+          [
+            33.58997,
+            4.7691017
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 58,
+        "source": "27",
+        "target": "60"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.2470254,
+            7.0146876
+          ],
+          [
+            29.09257692380704,
+            7.063972150461279
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 59,
+        "source": "28",
+        "target": "77"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.1951973,
+            7.71624
+          ],
+          [
+            25.6793739,
+            8.4694625
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 60,
+        "source": "29",
+        "target": "141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.1951973,
+            7.71624
+          ],
+          [
+            27.9909335,
+            7.7001398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 61,
+        "source": "29",
+        "target": "163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.63615402213415,
+            9.281023814227375
+          ],
+          [
+            29.48814,
+            9.356977
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 62,
+        "source": "30",
+        "target": "31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.63615402213415,
+            9.281023814227375
+          ],
+          [
+            29.9139909,
+            9.1625559
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 63,
+        "source": "30",
+        "target": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.48814,
+            9.356977
+          ],
+          [
+            29.527539722576293,
+            9.27468384581716
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 64,
+        "source": "31",
+        "target": "57"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.48814,
+            9.356977
+          ],
+          [
+            29.674058,
+            9.477118
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 65,
+        "source": "31",
+        "target": "66"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.025693,
+            4.9728686
+          ],
+          [
+            27.902795137882435,
+            4.97457712182844
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 66,
+        "source": "32",
+        "target": "109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.025693,
+            4.9728686
+          ],
+          [
+            28.2473599,
+            4.6412769
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 67,
+        "source": "32",
+        "target": "122"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.025693,
+            4.9728686
+          ],
+          [
+            27.4683476,
+            5.609579
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 68,
+        "source": "32",
+        "target": "150"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.85804763267076,
+            8.893915191335227
+          ],
+          [
+            29.9139909,
+            9.1625559
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 69,
+        "source": "33",
+        "target": "45"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.85804763267076,
+            8.893915191335227
+          ],
+          [
+            29.995299,
+            8.593184
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 70,
+        "source": "33",
+        "target": "67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.3959666,
+            7.7497653
+          ],
+          [
+            31.6919968,
+            7.7480429
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 71,
+        "source": "34",
+        "target": "128"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.3959666,
+            7.7497653
+          ],
+          [
+            31.4117265,
+            7.4566724
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 72,
+        "source": "34",
+        "target": "139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.466719,
+            5.0857047
+          ],
+          [
+            27.902795137882435,
+            4.97457712182844
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 73,
+        "source": "35",
+        "target": "109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.983635,
+            9.222645
+          ],
+          [
+            30.8886612,
+            9.3195216
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 74,
+        "source": "36",
+        "target": "71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.983635,
+            9.222645
+          ],
+          [
+            31.162239,
+            9.4073225
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 75,
+        "source": "36",
+        "target": "113"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.983635,
+            9.222645
+          ],
+          [
+            30.8800267,
+            9.0668934
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 76,
+        "source": "36",
+        "target": "123"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.71428,
+            5.02512
+          ],
+          [
+            29.4645282,
+            4.9143633
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 77,
+        "source": "37",
+        "target": "96"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.71428,
+            5.02512
+          ],
+          [
+            30.3227139,
+            5.3483937
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 78,
+        "source": "37",
+        "target": "107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.655171606286352,
+            7.822797337019272
+          ],
+          [
+            31.8342865,
+            8.0695589
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 79,
+        "source": "38",
+        "target": "132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.7050412,
+            7.1428253
+          ],
+          [
+            31.4038165,
+            7.1653652
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 80,
+        "source": "39",
+        "target": "84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.7050412,
+            7.1428253
+          ],
+          [
+            32.575944,
+            6.466528
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 81,
+        "source": "39",
+        "target": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.7050412,
+            7.1428253
+          ],
+          [
+            31.513859,
+            7.4829
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 82,
+        "source": "39",
+        "target": "133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.7050412,
+            7.1428253
+          ],
+          [
+            31.8879957,
+            7.9071436
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 83,
+        "source": "39",
+        "target": "172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.472528,
+            7.405133
+          ],
+          [
+            30.28166,
+            7.45025
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 84,
+        "source": "40",
+        "target": "41"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.28166,
+            7.45025
+          ],
+          [
+            29.8426,
+            7.90323
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 85,
+        "source": "41",
+        "target": "85"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.28166,
+            7.45025
+          ],
+          [
+            30.2419019,
+            7.7270653
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 86,
+        "source": "41",
+        "target": "116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.797714,
+            5.6807128
+          ],
+          [
+            31.7699131,
+            5.1998722
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 87,
+        "source": "42",
+        "target": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.0984675,
+            8.5344438
+          ],
+          [
+            27.9789446,
+            8.3024209
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 88,
+        "source": "43",
+        "target": "70"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.0984675,
+            8.5344438
+          ],
+          [
+            28.30202,
+            8.991486
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 89,
+        "source": "43",
+        "target": "165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.981885951833736,
+            8.647804284789705
+          ],
+          [
+            26.00505386034703,
+            8.446188214681003
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 90,
+        "source": "44",
+        "target": "59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.981885951833736,
+            8.647804284789705
+          ],
+          [
+            26.850348,
+            9.102835
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 91,
+        "source": "44",
+        "target": "95"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.981885951833736,
+            8.647804284789705
+          ],
+          [
+            25.6793739,
+            8.4694625
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 92,
+        "source": "44",
+        "target": "141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.9139909,
+            9.1625559
+          ],
+          [
+            29.995299,
+            8.593184
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 93,
+        "source": "45",
+        "target": "67"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.9139909,
+            9.1625559
+          ],
+          [
+            30.101628,
+            8.4698416
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 94,
+        "source": "45",
+        "target": "104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.6205247,
+            4.8021113
+          ],
+          [
+            31.5959173,
+            4.8459246
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 95,
+        "source": "46",
+        "target": "53"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.6205247,
+            4.8021113
+          ],
+          [
+            32.0774384,
+            4.6440169
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 96,
+        "source": "46",
+        "target": "81"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9095416,
+            6.635056
+          ],
+          [
+            32.575944,
+            6.466528
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 97,
+        "source": "47",
+        "target": "92"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9095416,
+            6.635056
+          ],
+          [
+            33.1297059,
+            6.8011197
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 98,
+        "source": "47",
+        "target": "135"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.8714002,
+            4.4616286
+          ],
+          [
+            33.1078963,
+            4.0784728
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 99,
+        "source": "48",
+        "target": "49"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.8714002,
+            4.4616286
+          ],
+          [
+            32.5682244,
+            4.4134473
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 100,
+        "source": "48",
+        "target": "154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.7581757,
+            4.7620743
+          ],
+          [
+            32.4731135,
+            5.0289515
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 101,
+        "source": "50",
+        "target": "74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.849999391552867,
+            8.400020561936282
+          ],
+          [
+            26.00505386034703,
+            8.446188214681003
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 102,
+        "source": "51",
+        "target": "59"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            25.849999391552867,
+            8.400020561936282
+          ],
+          [
+            25.6793739,
+            8.4694625
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 103,
+        "source": "51",
+        "target": "141"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.22419,
+            10.147423
+          ],
+          [
+            33.7259061,
+            9.9633955
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 104,
+        "source": "52",
+        "target": "83"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            31.6649919,
+            3.8732643
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 105,
+        "source": "53",
+        "target": "56"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            32.4731135,
+            5.0289515
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 106,
+        "source": "53",
+        "target": "74"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            31.0755257,
+            4.3396843
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 107,
+        "source": "53",
+        "target": "75"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            31.7699131,
+            5.1998722
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 108,
+        "source": "53",
+        "target": "90"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            31.9569508,
+            3.868055
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 109,
+        "source": "53",
+        "target": "126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            30.94176729004669,
+            5.132539883173104
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 110,
+        "source": "53",
+        "target": "143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5959173,
+            4.8459246
+          ],
+          [
+            31.753986,
+            5.450554
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 111,
+        "source": "53",
+        "target": "151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.150760722281603,
+            9.30233607075806
+          ],
+          [
+            29.1650718,
+            9.2254694
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 112,
+        "source": "54",
+        "target": "101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.150760722281603,
+            9.30233607075806
+          ],
+          [
+            29.57856,
+            9.69324
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 113,
+        "source": "54",
+        "target": "144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.3927247,
+            8.0945809
+          ],
+          [
+            32.2397749,
+            8.1595168
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 114,
+        "source": "55",
+        "target": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.527539722576293,
+            9.27468384581716
+          ],
+          [
+            29.336666,
+            9.267008
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 115,
+        "source": "57",
+        "target": "155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.660785,
+            8.149121
+          ],
+          [
+            27.724499580266226,
+            8.072847538339927
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 116,
+        "source": "58",
+        "target": "157"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.660785,
+            8.149121
+          ],
+          [
+            27.9909335,
+            7.7001398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 117,
+        "source": "58",
+        "target": "163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.58997,
+            4.7691017
+          ],
+          [
+            33.9730397,
+            5.7670781
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 118,
+        "source": "60",
+        "target": "63"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.58997,
+            4.7691017
+          ],
+          [
+            34.1660393,
+            4.504813
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 119,
+        "source": "60",
+        "target": "111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.823863,
+            8.209632
+          ],
+          [
+            31.8304793,
+            8.4529665
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 120,
+        "source": "61",
+        "target": "124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.823863,
+            8.209632
+          ],
+          [
+            31.8342865,
+            8.0695589
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 121,
+        "source": "61",
+        "target": "132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.009143766497527,
+            8.086816677735108
+          ],
+          [
+            27.9789446,
+            8.3024209
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 122,
+        "source": "62",
+        "target": "70"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.009143766497527,
+            8.086816677735108
+          ],
+          [
+            27.999419,
+            8.013623
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 123,
+        "source": "62",
+        "target": "152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.638833,
+            9.2605
+          ],
+          [
+            30.7665154,
+            9.119437
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 124,
+        "source": "64",
+        "target": "127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.9282309,
+            8.9528142
+          ],
+          [
+            33.20443084276657,
+            9.29449990948606
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 125,
+        "source": "65",
+        "target": "119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.674058,
+            9.477118
+          ],
+          [
+            29.982872,
+            9.447218
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 126,
+        "source": "66",
+        "target": "89"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.674058,
+            9.477118
+          ],
+          [
+            29.1650718,
+            9.2254694
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 127,
+        "source": "66",
+        "target": "101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.674058,
+            9.477118
+          ],
+          [
+            29.9816678,
+            9.9190338
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 128,
+        "source": "66",
+        "target": "131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.674058,
+            9.477118
+          ],
+          [
+            29.57856,
+            9.69324
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 129,
+        "source": "66",
+        "target": "144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.995299,
+            8.593184
+          ],
+          [
+            30.101628,
+            8.4698416
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 130,
+        "source": "67",
+        "target": "104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.108345,
+            9.8875
+          ],
+          [
+            31.861945436849123,
+            9.69643988972825
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 131,
+        "source": "68",
+        "target": "121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.108345,
+            9.8875
+          ],
+          [
+            32.5466093,
+            10.4583543
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 132,
+        "source": "68",
+        "target": "129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.35167,
+            7.14117
+          ],
+          [
+            31.4038165,
+            7.1653652
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 133,
+        "source": "69",
+        "target": "84"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.5650725,
+            5.7056582
+          ],
+          [
+            34.1660393,
+            4.504813
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 134,
+        "source": "72",
+        "target": "111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.9696989,
+            6.6611024
+          ],
+          [
+            33.99062003653451,
+            6.199669232652293
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 135,
+        "source": "73",
+        "target": "97"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.9696989,
+            6.6611024
+          ],
+          [
+            33.2060535,
+            6.6793631
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 136,
+        "source": "73",
+        "target": "159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.4731135,
+            5.0289515
+          ],
+          [
+            32.5682244,
+            4.4134473
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 137,
+        "source": "74",
+        "target": "154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.0755257,
+            4.3396843
+          ],
+          [
+            30.6756882,
+            4.0941656
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 138,
+        "source": "75",
+        "target": "167"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.300148,
+            4.498553
+          ],
+          [
+            32.0774384,
+            4.6440169
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 139,
+        "source": "76",
+        "target": "81"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.300148,
+            4.498553
+          ],
+          [
+            32.5682244,
+            4.4134473
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 140,
+        "source": "76",
+        "target": "154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.09257692380704,
+            7.063972150461279
+          ],
+          [
+            28.681872,
+            7.2751765
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 141,
+        "source": "77",
+        "target": "153"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0618875,
+            8.5248787
+          ],
+          [
+            32.0489069,
+            8.1647526
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 142,
+        "source": "78",
+        "target": "106"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0618875,
+            8.5248787
+          ],
+          [
+            31.9459666,
+            8.4334738
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 143,
+        "source": "78",
+        "target": "117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.1411544,
+            8.3040834
+          ],
+          [
+            30.201707628273248,
+            8.266435808048447
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 144,
+        "source": "79",
+        "target": "137"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.1411544,
+            8.3040834
+          ],
+          [
+            30.080375,
+            8.3902359
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 145,
+        "source": "79",
+        "target": "146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.0075607,
+            7.0506672
+          ],
+          [
+            33.1297059,
+            6.8011197
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 146,
+        "source": "80",
+        "target": "135"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.448585,
+            5.3391035
+          ],
+          [
+            30.3227139,
+            5.3483937
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 147,
+        "source": "82",
+        "target": "107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.448585,
+            5.3391035
+          ],
+          [
+            30.94176729004669,
+            5.132539883173104
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 148,
+        "source": "82",
+        "target": "143"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.4038165,
+            7.1653652
+          ],
+          [
+            31.4117265,
+            7.4566724
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 149,
+        "source": "84",
+        "target": "139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.8426,
+            7.90323
+          ],
+          [
+            29.7205294,
+            7.7007016
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 150,
+        "source": "85",
+        "target": "93"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.8426,
+            7.90323
+          ],
+          [
+            30.00339,
+            8.13576
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 151,
+        "source": "85",
+        "target": "100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.299641,
+            4.127944
+          ],
+          [
+            32.5682244,
+            4.4134473
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 152,
+        "source": "86",
+        "target": "154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.923913,
+            8.6107065
+          ],
+          [
+            33.49834,
+            9.02694
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 153,
+        "source": "87",
+        "target": "98"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.923913,
+            8.6107065
+          ],
+          [
+            34.0246349,
+            8.474665
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 154,
+        "source": "87",
+        "target": "125"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.6584168,
+            9.5388487
+          ],
+          [
+            31.861945436849123,
+            9.69643988972825
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 155,
+        "source": "88",
+        "target": "121"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.0942416,
+            9.0524074
+          ],
+          [
+            29.1650718,
+            9.2254694
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 156,
+        "source": "91",
+        "target": "101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.575944,
+            6.466528
+          ],
+          [
+            31.9994,
+            6.19498
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 157,
+        "source": "92",
+        "target": "134"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.7205294,
+            7.7007016
+          ],
+          [
+            29.6767488,
+            6.8063901
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 158,
+        "source": "93",
+        "target": "145"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.074859,
+            6.339249
+          ],
+          [
+            29.952475345973685,
+            6.060153981372665
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 159,
+        "source": "94",
+        "target": "108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            26.850348,
+            9.102835
+          ],
+          [
+            26.9899093,
+            9.1275553
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 160,
+        "source": "95",
+        "target": "118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.4645282,
+            4.9143633
+          ],
+          [
+            28.39767,
+            4.5680716
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 161,
+        "source": "96",
+        "target": "166"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.49834,
+            9.02694
+          ],
+          [
+            33.20443084276657,
+            9.29449990948606
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 162,
+        "source": "98",
+        "target": "119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.49834,
+            9.02694
+          ],
+          [
+            33.6780942,
+            9.3101181
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 163,
+        "source": "98",
+        "target": "158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.3598113,
+            9.1617716
+          ],
+          [
+            28.30202,
+            8.991486
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 164,
+        "source": "99",
+        "target": "165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.00339,
+            8.13576
+          ],
+          [
+            30.080375,
+            8.3902359
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 165,
+        "source": "100",
+        "target": "146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.1650718,
+            9.2254694
+          ],
+          [
+            29.336666,
+            9.267008
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 166,
+        "source": "101",
+        "target": "155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.2024739,
+            10.4419745
+          ],
+          [
+            32.5466093,
+            10.4583543
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 167,
+        "source": "102",
+        "target": "129"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.5148179,
+            6.0548059
+          ],
+          [
+            31.753986,
+            5.450554
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 168,
+        "source": "103",
+        "target": "151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.101628,
+            8.4698416
+          ],
+          [
+            30.080375,
+            8.3902359
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 169,
+        "source": "104",
+        "target": "146"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0489069,
+            8.1647526
+          ],
+          [
+            31.8342865,
+            8.0695589
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 170,
+        "source": "106",
+        "target": "132"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0489069,
+            8.1647526
+          ],
+          [
+            32.0297593,
+            8.0418191
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 171,
+        "source": "106",
+        "target": "136"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0489069,
+            8.1647526
+          ],
+          [
+            32.1528986,
+            8.179364
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 172,
+        "source": "106",
+        "target": "160"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0489069,
+            8.1647526
+          ],
+          [
+            31.8879957,
+            7.9071436
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 173,
+        "source": "106",
+        "target": "172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.3227139,
+            5.3483937
+          ],
+          [
+            30.105424635886035,
+            5.785111806896459
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 174,
+        "source": "107",
+        "target": "168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.952475345973685,
+            6.060153981372665
+          ],
+          [
+            29.6278427,
+            6.5114833
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 175,
+        "source": "108",
+        "target": "164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.952475345973685,
+            6.060153981372665
+          ],
+          [
+            30.105424635886035,
+            5.785111806896459
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 176,
+        "source": "108",
+        "target": "168"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            34.284355,
+            4.40498
+          ],
+          [
+            34.1660393,
+            4.504813
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 177,
+        "source": "110",
+        "target": "111"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0601419,
+            3.5969348
+          ],
+          [
+            31.9569508,
+            3.868055
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 178,
+        "source": "115",
+        "target": "126"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.9459666,
+            8.4334738
+          ],
+          [
+            31.8304793,
+            8.4529665
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 179,
+        "source": "117",
+        "target": "124"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.6024988,
+            6.7102629
+          ],
+          [
+            30.7730423,
+            7.1054884
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 180,
+        "source": "120",
+        "target": "148"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.6024988,
+            6.7102629
+          ],
+          [
+            30.5021651,
+            6.5566444
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 181,
+        "source": "120",
+        "target": "170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.2473599,
+            4.6412769
+          ],
+          [
+            28.338648459046755,
+            4.627605640309765
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 182,
+        "source": "122",
+        "target": "147"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.8800267,
+            9.0668934
+          ],
+          [
+            30.7665154,
+            9.119437
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 183,
+        "source": "123",
+        "target": "127"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.6919968,
+            7.7480429
+          ],
+          [
+            31.513859,
+            7.4829
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 184,
+        "source": "128",
+        "target": "133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.6919968,
+            7.7480429
+          ],
+          [
+            31.8879957,
+            7.9071436
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 185,
+        "source": "128",
+        "target": "172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.5466093,
+            10.4583543
+          ],
+          [
+            32.8087719,
+            11.751936
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 186,
+        "source": "129",
+        "target": "142"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.553512,
+            9.726252
+          ],
+          [
+            29.9816678,
+            9.9190338
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 187,
+        "source": "130",
+        "target": "131"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.553512,
+            9.726252
+          ],
+          [
+            29.57856,
+            9.69324
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 188,
+        "source": "130",
+        "target": "144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.9816678,
+            9.9190338
+          ],
+          [
+            30.08876,
+            10.10535
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 189,
+        "source": "131",
+        "target": "169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.8342865,
+            8.0695589
+          ],
+          [
+            31.8879957,
+            7.9071436
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 190,
+        "source": "132",
+        "target": "172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            31.513859,
+            7.4829
+          ],
+          [
+            31.4117265,
+            7.4566724
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 191,
+        "source": "133",
+        "target": "139"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            33.1297059,
+            6.8011197
+          ],
+          [
+            33.2060535,
+            6.6793631
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 192,
+        "source": "135",
+        "target": "159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.0297593,
+            8.0418191
+          ],
+          [
+            31.8879957,
+            7.9071436
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 193,
+        "source": "136",
+        "target": "172"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.6767488,
+            6.8063901
+          ],
+          [
+            29.6278427,
+            6.5114833
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 194,
+        "source": "145",
+        "target": "164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.338648459046755,
+            4.627605640309765
+          ],
+          [
+            28.39767,
+            4.5680716
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 195,
+        "source": "147",
+        "target": "166"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.7744676,
+            5.900151
+          ],
+          [
+            31.753986,
+            5.450554
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 196,
+        "source": "149",
+        "target": "151"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.4683476,
+            5.609579
+          ],
+          [
+            27.9909335,
+            7.7001398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 197,
+        "source": "150",
+        "target": "163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.999419,
+            8.013623
+          ],
+          [
+            27.9909335,
+            7.7001398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 198,
+        "source": "152",
+        "target": "163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.681872,
+            7.2751765
+          ],
+          [
+            27.9909335,
+            7.7001398
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 199,
+        "source": "153",
+        "target": "163"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.4303002,
+            9.093424
+          ],
+          [
+            28.30202,
+            8.991486
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 200,
+        "source": "156",
+        "target": "165"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            32.1528986,
+            8.179364
+          ],
+          [
+            32.2397749,
+            8.1595168
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 201,
+        "source": "160",
+        "target": "161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            27.611928530402462,
+            9.144176232824428
+          ],
+          [
+            27.707058522367618,
+            9.57243962730569
+          ]
+        ]
+      },
+      "properties": {
+        "edge_id": 202,
+        "source": "162",
+        "target": "171"
+      }
+    }
+  ]
+}
