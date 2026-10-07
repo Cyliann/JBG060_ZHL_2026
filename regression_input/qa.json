@@ -2,7 +2,7 @@
   "road_count": 140,
   "geometry_status_counts": {
     "ok": 139,
-    "unverified_akun_akon_alias": 1
+    "unmatched_place": 1
   },
   "map_rows": 13239,
   "labeled_rows": 9919,
@@ -25,10 +25,11 @@
   "sample_spacing_km": 10.0,
   "feature_cutoff": "day before issue_date",
   "geometry_reference": "2025-12-24",
+  "geometry_source": "processing_data\\roadmap.geojson",
   "excluded_spatial_roads": [
-    112
+    44
   ],
   "zero_flood_detection_means": "no compact-product flood pixel matched; not verified dry",
   "raw_flood_rows_scanned": 42013858,
-  "matched_road_pixel_days": 3000769
+  "matched_road_pixel_days": 2847990
 }

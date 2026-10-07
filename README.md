@@ -9,9 +9,9 @@ It predicts a probability for each future road-passability label.
 ## Road-passability preprocessing
 
 The tracked [input-building script](processing_data/build_regression_input.py)
-joins road-condition maps with place coordinates, nearby detected flood
-pixels, and historical ERA5 rainfall/runoff. It approximates routes with
-straight segments, uses a 2 km road buffer by default, and creates 7- and
+joins road-condition maps with the supplied road-network nodes and edges,
+nearby detected flood pixels, and historical ERA5 rainfall/runoff. It follows
+intermediate network nodes, uses a 2 km road buffer by default, and creates 7- and
 14-day inputs ending before each map date. Its output files and assumptions
 are described in [regression_input/README.md](regression_input/README.md).
 
@@ -21,14 +21,14 @@ to the repository, run the script into a separate review directory:
 ```powershell
 python processing_data/build_regression_input.py `
   --roads-csv 'road_data/roads_all(2).csv' `
-  --coords-csv 'road_data/with_coords.csv' `
+  --road-network-geojson 'processing_data/roadmap.geojson' `
   --data-root '../data-JBG060-2026' `
   --output-dir '../regression_input_rebuilt'
 ```
 
 The script requires NumPy, pandas, PyArrow, Shapely, Xarray, PyProj, and an
-Xarray NetCDF backend. The current model-ready input uses the corrected
-Nadapal and Payuel coordinates. Its `qa.json` records the road coverage;
+Xarray NetCDF backend. The current input uses the 172-node network added in
+commit `5d4c444`. Its `qa.json` records the road coverage;
 the saved regression model and results have been refitted on it.
 
 ## Introduction and overview
@@ -226,7 +226,7 @@ or with limited time or memory.
 ### Road passability regression input
 
 `processing_data/build_regression_input.py` creates a road-date modeling table
-from the road labels, place coordinates, flood-event pixels, and ERA5 rainfall
+from the road labels, road-network geometry, flood-event pixels, and ERA5 rainfall
 and runoff. It accepts paths explicitly, so the external data can stay outside
 this Git repository. From the repository root in a Python environment with the
 project's data-processing dependencies installed:
@@ -234,7 +234,7 @@ project's data-processing dependencies installed:
 ```bash
 python processing_data/build_regression_input.py \
   --roads-csv 'road_data/roads_all(2).csv' \
-  --coords-csv road_data/with_coords.csv \
+  --road-network-geojson processing_data/roadmap.geojson \
   --data-root ../data-JBG060-2026 \
   --output-dir regression_input
 ```
@@ -245,9 +245,9 @@ python processing_data/build_regression_input.py \
 folder also contains labeled and unlabeled audit tables, route geometry,
 `qa.json`, and a data dictionary. All weather/flood features end the day before
 the map date. A zero flood count means no detected pixel in the compact flood
-product; it does not establish cloud-free, dry conditions. Roads 112 and 117
-remain in the audit table but are excluded from the model-ready table pending
-coordinate checks. The binary target means red on the Logistics Cluster map;
+product; it does not establish cloud-free, dry conditions. Road 44 remains in
+the audit table but is excluded from the model-ready table because Dablual is
+absent from the new network. The binary target means red on the Logistics Cluster map;
 partial passability is grouped with passability and can be tested separately.
 The script builds inputs only; it does not fit a model.
 

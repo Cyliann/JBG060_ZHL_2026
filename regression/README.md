@@ -219,18 +219,17 @@ using different paths. If these packages are missing, install them with
 | `results/test_metrics.json` | 2025 multiclass scores, confusion matrix, training counts, and SHA-256 hashes of the two source CSVs. |
 | `results/test_predictions.csv` | One 2025 row per road/date, with all three class probabilities, predicted class, and confidence. |
 
-On the 2025 diagnostic set, the direct model's accuracy is **93.56%**, but it
+On the 2025 diagnostic set, the direct model's accuracy is **93.56%** and its
+multiclass log loss is **0.27836**, but it
 correctly identifies **0 of the 303 changed road-date pairs** by its highest
 probability class. Thus its current three-class confidence output exists and
 is reproducible, while its performance on the operationally important
-changes remains weak. All 34 added 2025 observations for road 117 are
-unchanged; the small accuracy increase from the earlier run mostly reflects
-those additional easy rows. Overall accuracy largely reflects unchanged roads.
+changes remains weak. Overall accuracy largely reflects unchanged roads.
 
 ### Input-data version note
 
-The `regression_input/` table was rebuilt after the Nadapal and Payuel
-coordinate corrections on 2026-10-05. It now includes road 117 and revised
-features for roads 111, 131, and 137. The saved model and `results/` files
-above were refitted on that rebuilt table. `test_metrics.json` records the
+The `regression_input/` table now uses the 172-node road network in
+`processing_data/roadmap.geojson`. Road 112 is included, while road 44 is
+excluded because its endpoint Dablual is absent. The saved model and
+`results/` files above were refitted on that rebuilt table. `test_metrics.json` records the
 input CSV hashes so a later data rebuild can be distinguished from this run.

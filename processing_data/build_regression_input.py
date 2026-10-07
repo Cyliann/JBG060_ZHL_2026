@@ -1,16 +1,16 @@
 """Build dated, road-level inputs for the South Sudan passability model.
 
-Place coordinates and the latest map's place sequence form straight road
-segments. Flood-pixel coordinates are matched to route buffers (2 km by
-default); ERA5 cells are sampled along each route. Daily observations become
-7- and 14-day features ending before the issue map, then road labels 10-14 days
-later provide training targets. Source files are read without modification.
-Flood counts mean detected pixels; zero does not certify a dry observation.
+The script reads source data without modifying it. All weather and flood
+features end on the day before the road-map issue date. Flood counts mean
+detected pixels; zero does not certify a dry observation. The optional road
+network follows supplied nodes and edges, including intermediate places,
+instead of connecting only the listed endpoints.
 """
 
 from __future__ import annotations
 
 import argparse
+import heapq
 import json
 import math
 from collections import defaultdict
@@ -58,11 +58,67 @@ def route_pairs(row: pd.Series) -> list[tuple[str, str]]:
     return list(zip(places, places[1:]))
 
 
-def build_routes(roads: pd.DataFrame, coords_path: Path) -> dict[int, dict]:
-    coords = pd.read_csv(coords_path)
-    if coords["name"].duplicated().any():
-        raise ValueError("Duplicate place names in coordinate table")
-    points = {row["name"]: (float(row["lon"]), float(row["lat"])) for _, row in coords.iterrows()}
+def load_network(path: Path) -> tuple[dict[str, str], dict[str, tuple[float, float]], dict]:
+    features = json.loads(path.read_text(encoding="utf-8"))["features"]
+    names, points, neighbors = {}, {}, defaultdict(list)
+    for feature in features:
+        if feature["geometry"]["type"] != "Point":
+            continue
+        properties = feature["properties"]
+        node_id = str(properties["node_id"])
+        name = properties["name"].strip()
+        if name in names or node_id in points:
+            raise ValueError(f"Duplicate network node: {name} / {node_id}")
+        names[name] = node_id
+        points[node_id] = tuple(feature["geometry"]["coordinates"])
+    for feature in features:
+        if feature["geometry"]["type"] != "LineString":
+            continue
+        source = str(feature["properties"]["source"])
+        target = str(feature["properties"]["target"])
+        if source not in points or target not in points:
+            raise ValueError(f"Network edge has unknown node: {source} / {target}")
+        ax, ay = WGS84_TO_METERS.transform(*points[source])
+        bx, by = WGS84_TO_METERS.transform(*points[target])
+        distance = math.hypot(ax - bx, ay - by)
+        neighbors[source].append((target, distance))
+        neighbors[target].append((source, distance))
+    return names, points, neighbors
+
+
+def shortest_network_path(start: str, end: str, neighbors: dict) -> list[str] | None:
+    queue = [(0.0, start)]
+    distances = {start: 0.0}
+    previous = {}
+    while queue:
+        distance, node = heapq.heappop(queue)
+        if distance != distances[node]:
+            continue
+        if node == end:
+            path = [end]
+            while path[-1] != start:
+                path.append(previous[path[-1]])
+            return path[::-1]
+        for neighbor, edge_length in neighbors[node]:
+            candidate = distance + edge_length
+            if candidate < distances.get(neighbor, float("inf")):
+                distances[neighbor] = candidate
+                previous[neighbor] = node
+                heapq.heappush(queue, (candidate, neighbor))
+    return None
+
+
+def build_routes(
+    roads: pd.DataFrame, coords_path: Path | None,
+    network_path: Path | None = None,
+) -> dict[int, dict]:
+    if network_path is None:
+        coords = pd.read_csv(coords_path)
+        if coords["name"].duplicated().any():
+            raise ValueError("Duplicate place names in coordinate table")
+        points = {row["name"]: (float(row["lon"]), float(row["lat"])) for _, row in coords.iterrows()}
+    else:
+        names, network_points, neighbors = load_network(network_path)
     # Use one reference geometry per road for every historical map date.
     latest = roads.loc[roads["date"] == roads["date"].max()].sort_values("road_id")
     if latest["road_id"].duplicated().any():
@@ -76,20 +132,30 @@ def build_routes(roads: pd.DataFrame, coords_path: Path) -> dict[int, dict]:
         lines_wgs84 = []
         lines_meters = []
         for left, right in pairs:
-            if left == "Akun" or right == "Akun":
-                status = "unverified_akun_akon_alias"
-            a = points.get("Akon" if left == "Akun" else left)
-            b = points.get("Akon" if right == "Akun" else right)
-            if a is None or b is None:
-                status = "unmatched_place"
-                continue
-            ax, ay = WGS84_TO_METERS.transform(*a)
-            bx, by = WGS84_TO_METERS.transform(*b)
-            if math.hypot(ax - bx, ay - by) < 1:
+            if network_path is None:
+                if left == "Akun" or right == "Akun":
+                    status = "unverified_akun_akon_alias"
+                a = points.get("Akon" if left == "Akun" else left)
+                b = points.get("Akon" if right == "Akun" else right)
+                if a is None or b is None:
+                    status = "unmatched_place"
+                    continue
+                route_points = [a, b]
+            else:
+                if left not in names or right not in names:
+                    status = "unmatched_place"
+                    continue
+                node_path = shortest_network_path(names[left], names[right], neighbors)
+                if node_path is None:
+                    status = "unmatched_network_path"
+                    continue
+                route_points = [network_points[node] for node in node_path]
+            projected = [WGS84_TO_METERS.transform(*point) for point in route_points]
+            if len(projected) < 2 or LineString(projected).length < 1:
                 status = "zero_length_segment"
                 continue
-            lines_wgs84.append(LineString([a, b]))
-            lines_meters.append(LineString([(ax, ay), (bx, by)]))
+            lines_wgs84.append(LineString(route_points))
+            lines_meters.append(LineString(projected))
         if len(lines_wgs84) != len(pairs) and status == "ok":
             status = "incomplete_geometry"
         routes[road_id] = {
@@ -323,13 +389,16 @@ def write_geometries(routes: dict[int, dict], path: Path) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--roads-csv", type=Path, required=True)
-    parser.add_argument("--coords-csv", type=Path, required=True)
+    parser.add_argument("--coords-csv", type=Path)
+    parser.add_argument("--road-network-geojson", type=Path)
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--buffer-km", type=float, default=2.0)
     parser.add_argument("--sample-km", type=float, default=10.0)
     parser.add_argument("--flood-batch-size", type=int, default=100_000)
     args = parser.parse_args()
+    if (args.coords_csv is None) == (args.road_network_geojson is None):
+        parser.error("Specify exactly one of --coords-csv or --road-network-geojson")
     if args.buffer_km <= 0 or args.sample_km <= 0 or args.flood_batch_size <= 0:
         parser.error("Buffer, sample spacing and batch size must be positive")
     return args
@@ -338,7 +407,7 @@ def parse_args() -> argparse.Namespace:
 def main() -> None:
     args = parse_args()
     roads = load_statuses(args.roads_csv)
-    routes = build_routes(roads, args.coords_csv)
+    routes = build_routes(roads, args.coords_csv, args.road_network_geojson)
     start = roads["date"].min() - pd.Timedelta(days=14)
     end = roads["date"].max()
     args.output_dir.mkdir(parents=True, exist_ok=True)
@@ -381,6 +450,7 @@ def main() -> None:
         "sample_spacing_km": args.sample_km,
         "feature_cutoff": "day before issue_date",
         "geometry_reference": str(roads["date"].max().date()),
+        "geometry_source": str(args.road_network_geojson or args.coords_csv),
         "excluded_spatial_roads": [
             road_id for road_id, route in routes.items() if route["status"] != "ok"
         ],

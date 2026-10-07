@@ -16,16 +16,18 @@ a regression model.
   map in the 10-14 day window.
 - `road_daily_flood.parquet`: daily counts of detected flood pixels near each
   route, useful for auditing the time aggregation.
-- `road_geometries.geojson`: piecewise straight route approximation by
-  `road_id`, with geometry quality flags.
+- `road_geometries.geojson`: route geometry by `road_id`, following the
+  supplied network nodes and edges, with geometry quality flags.
 - `qa.json`: counts, exclusions, settings and basic validation results.
 
 ## How flood pixels are matched to roads
 
 `roads_all(2).csv` names each road's `from`, `via`, and `to` places.
-`road_data/with_coords.csv` supplies their latitude and longitude. The
-preprocessor connects consecutive places with straight segments using the
-latest road map as its reference geometry. It converts both road segments
+`processing_data/roadmap.geojson` supplies 172 place coordinates and 203
+network edges. For each consecutive pair of listed places, the preprocessor
+follows the shortest geographic-distance path through that network. Each
+edge is still a straight line between named nodes, not a surveyed road
+centerline. It converts both road segments
 and flood-pixel coordinates to a meter-based projection, buffers each route
 by 2 km by default, and matches a detected pixel to a road when the pixel's
 point falls in that buffer. A pixel can match more than one nearby road;
@@ -53,7 +55,7 @@ within-2025 testing, and cross-year rows.
 All `*_7d` and `*_14d` features use complete calendar-day windows ending on
 `feature_cutoff_date`, the day **before** `issue_date`. Flood features count
 detected pixel-days in a 2 km buffer around the route; the per-km variants
-divide by approximate straight-line route length. ERA5 rainfall and runoff
+divide by approximate network-route length. ERA5 rainfall and runoff
 features are length-weighted road-grid averages of daily totals, in mm.
 `current_partial` and `current_impassable` are ready-to-use status indicators;
 the passable category is the reference.
@@ -65,13 +67,13 @@ flood/rain/runoff windows and a season encoding derived from `issue_month`.
 
 ## Assumptions and limits
 
-- Route geometry is derived from the final 2025-12-24 place sequence and
-  straight connections between places. The historical route geometry is
-  assumed stable. Road 133 has two disconnected pieces.
-- The current `regression_input` files were rebuilt after the Nadapal and
-  Payuel coordinate corrections on 2026-10-05. Road 117 now has spatial
-  features. Road 112 (`Akun` versus `Akon`) remains excluded because its
-  place match is unverified.
+- Route geometry is derived from the final 2025-12-24 place sequence and the
+  172-node network. The historical route geometry is assumed stable. Road 133
+  has two disconnected pieces. A shortest path may be ambiguous because the
+  network edges have no `road_id` and are not surveyed road centerlines.
+- The current `regression_input` uses the network added in commit `5d4c444`.
+  Road 112 now uses the Akun node. Road 44 is excluded because Dablual is
+  absent; no older coordinate was substituted.
 - The compact flood files contain detected event pixels from a 3-day composite,
   not a complete daily valid-observation mask. Zero means **no detection in
   this product**, not verified dry conditions. Buffer width is an assumption.
@@ -81,8 +83,8 @@ flood/rain/runoff windows and a season encoding derived from `issue_month`.
 - Map dates are nominal map dates; actual survey/publication times are not in
   the road CSV. Road conditions are access-map classes and are not labeled by
   cause, so `y_blocked` is not proof of flood-caused closure.
-- The final 2025 network GeoJSON `weight` and contemporaneous `truck_type`
-  were not used as weather or road predictors.
+- Network connectivity is used only to build route geometry. Contemporaneous
+  `truck_type` was not used as a road predictor.
 
 ## Regenerate
 
@@ -92,7 +94,7 @@ installed:
 ```powershell
 python processing_data/build_regression_input.py `
   --roads-csv 'road_data/roads_all(2).csv' `
-  --coords-csv 'road_data/with_coords.csv' `
+  --road-network-geojson 'processing_data/roadmap.geojson' `
   --data-root '../data-JBG060-2026' `
   --output-dir '../regression_input_rebuilt'
 ```
