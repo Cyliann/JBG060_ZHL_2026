@@ -1,0 +1,20 @@
+{
+  "test_rows": 4708,
+  "decision_threshold": 0.5,
+  "accuracy": 0.9594307561597282,
+  "restricted_precision": 0.9698221092757306,
+  "restricted_recall": 0.9695141314703081,
+  "restricted_f1": 0.9696680959186914,
+  "macro_f1": 0.9542152598862453,
+  "tn": 1464,
+  "fp": 95,
+  "fn": 96,
+  "tp": 3053,
+  "roc_auc": 0.9709441750346436,
+  "average_precision": 0.9643438415801139,
+  "brier": 0.03604562701161799,
+  "new_restricted_rows": 100,
+  "new_restricted_caught": 4,
+  "reopening_rows": 91,
+  "reopenings_caught": 0
+}

@@ -1,0 +1,40 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "class_0": "passable",
+  "class_1": "passable with difficulties or impassable",
+  "target": "first access map 10-14 days after issue_date",
+  "features_in_order": [
+    "current_partial",
+    "current_impassable",
+    "season_sin",
+    "season_cos",
+    "log_status_age_days",
+    "recent_status_change",
+    "has_previous_map",
+    "ever_observed_change",
+    "previous_map_gap_days",
+    "log_rain_7d",
+    "rain_trend_log",
+    "flood_detected_days_7d",
+    "flood_trend_days",
+    "log_flood_intensity_7d",
+    "current_partial_x_log_rain_7d",
+    "current_partial_x_flood_detected_days_7d",
+    "current_impassable_x_log_rain_7d",
+    "current_impassable_x_flood_detected_days_7d"
+  ],
+  "parameters": {
+    "max_leaf_nodes": 7,
+    "max_iter": 150,
+    "learning_rate": 0.05,
+    "min_samples_leaf": 50,
+    "l2_regularization": 1.0,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "train_rows_2024": 5001,
+  "test_rows_2025": 4708,
+  "input_sha256": "d8f9085083ebffc860c24af6d4fc4b6e5be90b1da0f087854af9406091c849f2",
+  "road_status_sha256": "8f2b0375112279a2f2bd36ab46243fb45923f4b3b4156f7496e269a7ba693393",
+  "model_sha256": "4394de8fff2c8c7ae127e252649face1a5f07d4bad7ad25196b7d0d283d6814b"
+}
